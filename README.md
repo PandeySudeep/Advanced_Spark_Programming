@@ -19,3 +19,6 @@ It was great fun to run advanced spark program for processing batch data with my
     <td>StatCounter Class</td>
   </tr>
 </table>
+
+Project Background/Requirements:
+--------------------------------
