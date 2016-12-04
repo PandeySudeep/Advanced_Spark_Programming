@@ -29,5 +29,5 @@ Data consists of call signs received in a file (sample:-/src/main/resources/call
 <img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/callsigns.PNG" alt="call signs" style="width:304px;height:228px;">
 </body>
 </html>
-Use Accumulator variables to (i) count the occurence of a particular call sign, (ii) check validity of call signs, (iii) count number of blank lines in the file.
+<p>Use Accumulator variables to (i) count the occurence of a particular call sign, (ii) check validity of call signs, (iii) count number of blank lines in the file.</p>
 
