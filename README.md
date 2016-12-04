@@ -1,5 +1,6 @@
 # Advanced_Spark_Programming
-Using Apache Spark's RDD-based JAVA API for batch processing
+
+It was great fun to run advance spark program for processing batch data with my favorite language - JAVA. The fundamental data structure of Spark - Resilient Distributed Datasets (RDD) was basis of all data transformation. Table down below lists the key concepts focused.
 
 <table style="width:100%">
   <tr>
