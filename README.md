@@ -22,4 +22,4 @@ It was great fun to run advanced spark program for processing batch data with my
 
 Project Background/Requirements:
 --------------------------------
-*   **Canonical Project Page:**
+*   **Data Transformation Pipeline:**
