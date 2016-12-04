@@ -22,17 +22,14 @@ It was great fun to run advanced spark program for processing batch data with my
 
 Project Background/Requirements:
 --------------------------------
-*   **Data Transformation Pipeline:**
+*   **Shared Variables - Accumulators:**
 Data consists of call signs received in a file (sample:-/src/main/resources/callsigns).
 <html>
 <body>
 <img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/callsigns.PNG" alt="call signs" style="width:304px;height:228px;">
 </body>
 </html>
-<html>
-<body bgcolor="#E6E6FA">
 <p>Use Accumulator variables to (i) count the occurence of a particular call sign, (ii) check validity of call signs, (iii) count number of blank lines in the file.</p>
-</body>
-</html>
+
 
 
