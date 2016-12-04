@@ -23,3 +23,9 @@ It was great fun to run advanced spark program for processing batch data with my
 Project Background/Requirements:
 --------------------------------
 *   **Data Transformation Pipeline:**
+<html>
+<body>
+<h2>Spectacular Mountain</h2>
+<img src=".png" alt="call signs" style="width:304px;height:228px;">
+</body>
+</html>
