@@ -6,12 +6,15 @@ Using Apache Spark's RDD-based JAVA API for batch processing
     <th>Advanced Programming Concepts</th>
   </tr>
   <tr>
-    <td>Jill</td>
+    <td>Shared Variables - Accumulator & Broadcast Variable</td>
   </tr>
   <tr>
-    <td>94</td>
+    <td>Sharing Resources Per-Partition Basis</td>
   </tr>
   <tr>
-    <td>105</td>
+    <td>Piping RDD's to external program</td>
+  </tr>
+  <tr>
+    <td>Statistical Functions Available</td>
   </tr>
 </table>
