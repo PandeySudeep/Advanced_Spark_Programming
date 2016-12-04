@@ -16,6 +16,6 @@ It was great fun to run advance spark program for processing batch data with my 
     <td>Piping RDD's to external program</td>
   </tr>
   <tr>
-    <td>Statistical Functions Available</td>
+    <td>StatCounter Class</td>
   </tr>
 </table>
