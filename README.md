@@ -23,7 +23,7 @@ It was great fun to run advanced spark program for processing batch data with my
 Project Background/Requirements:
 --------------------------------
 *   **Shared Variables - Accumulators:**
-Data consists of call signs received in a file (sample:-/src/main/resources/callsigns).
+<p>Data consists of call signs received in a file (sample:-/src/main/resources/callsigns).</p>
 <html>
 <body>
 <img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/callsigns.PNG" alt="call signs" style="width:304px;height:228px;">
