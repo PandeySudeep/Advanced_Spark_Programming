@@ -51,3 +51,6 @@ Project Background/Requirements:
 </body>
 </html>
 <p>For each valid sign, fetch JSON objects with various fields and corresponding values.</p>
+
+*   **Piping RDD to external program:**
+
