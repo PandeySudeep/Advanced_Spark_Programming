@@ -50,4 +50,11 @@ Project Background/Requirements:
 <p>For each valid sign, fetch JSON objects with various fields and corresponding values.</p>
 
 *   **Piping RDD to external program:**
+<p>An external R program is available to compute single value from each element of RDD.</p>
+<html>
+<body>
+<img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/callsign_tbl_sorted.PNG" alt="lookup table" style="width:304px;height:228px;">
+</body>
+</html>
 
+<p>Pipe source RDD to the external program to retrieve new RDD of the computed values.</p>
