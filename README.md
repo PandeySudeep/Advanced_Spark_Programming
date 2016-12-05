@@ -53,8 +53,7 @@ Project Background/Requirements:
 <p>An external R program is available to compute single value from each element of RDD.</p>
 <html>
 <body>
-<img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/callsign_tbl_sorted.PNG" alt="lookup table" style="width:304px;height:228px;">
+<img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/external_R_program.PNG" alt="R script" style="width:304px;height:228px;">
 </body>
 </html>
-
 <p>Pipe source RDD to the external program to retrieve new RDD of the computed values.</p>
