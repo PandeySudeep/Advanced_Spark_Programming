@@ -41,11 +41,7 @@ Project Background/Requirements:
 <p>From file above, create a broadcast variable that holds an Array consisting of unique pairs - sign,country. Use this broadcast variable to look up country/countries for all signs.</p>
 
 *   **Sharing Resources Per-Partition Basis:**
-<p>Working with data on a per-partition basis allows us to avoid redoing setup work for each data element of the RDD. Operations like opening a database connection or creating a random-number generator are examples of setup steps that we wish to avoid doing for each element.Spark has <b><u>per-partition</u></b> versions of <b><i>map</i></b> and <b><i>foreach</i></b> to help reduce the cost of these operations by letting us run code only once for each partition of an RDD.
-
-Share a connection pool <i><u>(using HttpClient, ContentExchange, ObjectMapper)</u></i> to web data to reuse for all elements in a partition. Use <b><i>mapPartitionsToPair()</i></b> which gives iterator of all elements of partition and expects us to return iterable object of our result.
-
-Sample web data can be retrieved by calling http://new73s.herokuapp.com/qsos/KK6JKQ.json as seen below.</p>
+<p>Working with data on a per-partition basis allows us to avoid redoing setup work for each data element of the RDD. Operations like opening a database connection or creating a random-number generator are examples of setup steps that we wish to avoid doing for each element.Spark has <b><u>per-partition</u></b> versions of <b><i>map</i></b> and <b><i>foreach</i></b> to help reduce the cost of these operations by letting us run code only once for each partition of an RDD.<br>Share a connection pool <i><u>(using HttpClient, ContentExchange, ObjectMapper)</u></i> to web data to reuse for all elements in a partition. Use <b><i>mapPartitionsToPair()</i></b> which gives iterator of all elements of partition and expects us to return iterable object of our result.<br>Sample web data can be retrieved by calling http://new73s.herokuapp.com/qsos/KK6JKQ.json as seen below.</p>
 <html>
 <body>
 <img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/webdata_call.PNG" alt="web log" style="width:304px;height:228px;">
