@@ -16,7 +16,7 @@
     <td>Piping RDD's to external program</td>
   </tr>
   <tr>
-    <td>StatCounter Class</td>
+    <td>Numeric RDD Operations using StatsCounter</td>
   </tr>
 </table>
 
@@ -57,3 +57,9 @@ Project Background/Requirements:
 </body>
 </html>
 <p>Pipe source RDD to the external program to retrieve new RDD of the computed values.</p>
+
+*   **Numeric RDD Operations using StatsCounter:**
+<p>Create <b>StatsCounter</b> object using <b>stats()</b> method. Use methods availabe in StatsCounter class like count(), mean(), sum(), max(), min(), variance(), sampleVariance(), stdev(), sampleStdev() to compute numeric metrics.</p>
+
+
+
