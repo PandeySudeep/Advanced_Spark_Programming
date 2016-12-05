@@ -39,3 +39,6 @@ Project Background/Requirements:
 </body>
 </html>
 <p>From file above, create a broadcast variable that holds an Array consisting of unique pairs - sign,country. Use this broadcast variable to look up country/countries for all signs.</p>
+
+*   **Sharing Resources Per-Partition Basis:**
+<p>Working with data on a per-partition basis allows us to avoid redoing setup work for each data element of the RDD. Operations like opening a database connection or creating a random-number generator are examples of setup steps that we wish to avoid doing for each element.Spark has <b><u>per-partition</u></b> versions of <b><i>map</i></b> and <b><i>foreach</i></b> to help reduce the cost of these operations by letting us run code only once for each partition of an RDD.</p>
