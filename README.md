@@ -35,10 +35,7 @@ Project Background/Requirements:
 <p>File (/src/main/resources/callsign_tbl_sorted) is available.</p>
 <html>
 <body>
-<img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/callsigns.PNG" alt="call signs" style="width:304px;height:228px;">
+<img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/callsign_tbl-sorted.PNG" alt="call signs" style="width:304px;height:228px;">
 </body>
 </html>
-
-From file above, create a broadcast variable that holds an Array consisting of unique pairs - sign,country. Use this broadcast variable to derive list of countries and total number of signs. 
-
-
+<p>From file above, create a broadcast variable that holds an Array consisting of unique pairs - sign,country. Use this broadcast variable to look up country/countries for all signs.</p>
