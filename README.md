@@ -62,4 +62,4 @@ Project Background/Requirements:
 <p>Create <b>StatsCounter</b> object using <b>stats()</b> method. Use methods availabe in StatsCounter class like count(), mean(), sum(), max(), min(), variance(), sampleVariance(), stdev(), sampleStdev() to compute numeric metrics.</p>
 
 
-
+<b>Thank You for visiting my project. I will be introducing other Spark projects picking topics like Spark Streaming, DataFrame/DataSet API, Testing Streaming Application, Custom Partitioning, Custom Accumulator, Broadcast variable Serialization, Performance Tuning and Debugging and more.</b>
