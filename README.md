@@ -47,7 +47,7 @@ Project Background/Requirements:
 <p>Sample web data can be retrieved by calling http://new73s.herokuapp.com/qsos/KK6JKQ.json as seen below.</p>
 <html>
 <body>
-<img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/callsign_tbl_sorted.PNG" alt="lookup table" style="width:304px;height:228px;">
+<img src="https://github.com/PandeySudeep/Apache_Spark_Advanced_Programming_-Batch-Processing-/blob/master/webdata_call.PNG" alt="web log" style="width:304px;height:228px;">
 </body>
 </html>
 <p>For each valid sign, fetch JSON objects with various fields and corresponding values.</p>
