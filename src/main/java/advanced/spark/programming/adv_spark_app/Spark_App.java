@@ -62,19 +62,10 @@ package advanced.spark.programming.adv_spark_app;
 
 	  public static void main(String[] args) throws Exception {
 
-			/*if (args.length != 4) {
-	      throw new Exception("Usage AccumulatorExample sparkMaster inputFile outDirectory");
-			}
-	    String sparkMaster = args[0];
-	    String inputFile = args[1];
-	    String inputFile2 = args[2];
-	    String outputDir = args[3];
-            */
-	    JavaSparkContext sc = new JavaSparkContext("local[2]","my_app");
-	      //sparkMaster, "ChapterSixExample", System.getenv("SPARK_HOME"), System.getenv("JARS"));
+		JavaSparkContext sc = new JavaSparkContext("local[2]","my_app");
 	    JavaRDD<String> rdd = sc.textFile("/home/edureka/Downloads/myinput");
-	    // Count the number of lines with KK6JKQ
-	    final Accumulator<Integer> count = sc.accumulator(0);
+	    
+		final Accumulator<Integer> count = sc.accumulator(0);
 	    rdd.foreach(new VoidFunction<String>(){ public void call(String line) {
 	          if (line.contains("KK6JKQ")) {
 	            count.add(1);
